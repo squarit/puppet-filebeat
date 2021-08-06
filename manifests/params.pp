@@ -73,6 +73,7 @@ class filebeat::params {
       $manage_apt  = true
       $filebeat_path = '/usr/share/filebeat/bin/filebeat'
       $major_version = '7'
+      $use_opensource = false
     }
   }
   case $::kernel {
